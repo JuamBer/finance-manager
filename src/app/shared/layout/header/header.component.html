@@ -1,0 +1,25 @@
+<nav class="bg-white shadow-md">
+  <div class="mx-auto max-w-6xl px-4">
+    <div class="flex items-center justify-between align-middle">
+      <a [routerLink]="''" class="py-4 text-xl font-bold text-gray-800"
+        >Personal Finance Management</a
+      >
+      <ul class="flex h-max align-middle">
+        <li class="mr-6">
+          <a
+            [routerLink]="'transactions'"
+            class="text-lg text-gray-600 delay-75 hover:text-gray-800 hover:underline"
+            >Transactions</a
+          >
+        </li>
+        <li>
+          <a
+            [routerLink]="'statistics'"
+            class="text-lg text-gray-600 delay-75 hover:text-gray-800 hover:underline"
+            >Statistics</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
